@@ -21,7 +21,7 @@ const Thanks = ({data}) => {
         <p >A sua opinião é muito importante, em breve você receberá um cupom de 10% de desconto para sua próxima compra </p>
         
         <p>Para concluir sua avaliação clique no botão de Enviar abaixo.</p>    
-      <h3>Aqui está o reumo da sua avaliação: {data.name}: </h3>
+      <h3>Aqui está o reumo da sua avaliação: {data.name} </h3>
       <p className="review-data">
         <span>Satisfação com o produto:
           {emojiData[data.review]} </span>
